@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Практика bootstrap</title>
+</head>
+<body>
+<div class="container">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ACID - Soc</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Домашная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Качалка</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Заюзай
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Хакинг</a></li>
+              <li><a class="dropdown-item" href="#">Чит ресурс</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Torrents</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Замолчено</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Я тут искал" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Пошарить</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--nav-->
+  <div class="card my-3 d-flex" style="width: 18rem;">
+    <img src="img/avatar/avatar.jpg" class="card-img-top" alt="Моська">
+    <div class="card-body">
+      <h5 class="card-title">Наводки</h5>
+      
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><a href="">Моя каморка</a></li>
+      <li class="list-group-item"><a href="">Новости Прокапенко</a></li>
+      <li class="list-group-item"><a href="">Писалка корешам</a></li>
+      <li class="list-group-item"><a href="">Секты</a></li>
+      <li class="list-group-item"><a href="">Картинки 18+</a></li>
+      <li class="list-group-item"><a href="">Музон</a></li>
+      <li class="list-group-item"><a href="">Фильматека</a></li>
+      <li class="list-group-item"><a href="">Гастроном</a></li>
+      <li class="list-group-item"><a href="">Милиция</a></li>
+
+    </ul>
+    <div class="card-body">
+      <a href="#" class="card-link">Хлебные карточки</a>
+      <a href="#" class="card-link">Расписания уроков</a>
+    </div>
+  </div>
+  <!--Card left menu-->
+  <div class="card d-flex justify-content-end" style="width: 290px;">
+    <div class="card-header">
+      Бои MMA
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Отбор «Битва за хайп»</h5>
+      <p class="card-text">Думаю, после операции, полугодового простоя без тренировок и боев, выступил не плохо.</p>
+      <a href="#" class="btn btn-danger">Подробно</a>
+    </div>
+  </div>
+  <!--Card right-->
+  
+</div>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+<script src="js/main.js"></script>
+</body>
+</html>
